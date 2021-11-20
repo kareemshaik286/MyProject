@@ -1,0 +1,38 @@
+.Cont{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+
+}
+.card{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    color: grey;
+    font-size: 20px;
+}
+.plus{
+    color: grey;
+    height: 50px;
+    width: 50px;
+}
+
+.heading{
+    color: grey;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    box-shadow: 2px;
+}
